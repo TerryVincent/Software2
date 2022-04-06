@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField disable="true" layoutX="167.0" layoutY="124.0" />
+      <TextField fx:id="Title" layoutX="167.0" layoutY="161.0" />
+      <TextField fx:id="Description" layoutX="167.0" layoutY="197.0" />
+      <TextField fx:id="Location" layoutX="167.0" layoutY="234.0" />
+      <TextField fx:id="Type" layoutX="167.0" layoutY="312.0" />
+      <TextField fx:id="SDT" layoutX="167.0" layoutY="354.0" text="YYYY-MM-DD HH:MI:SS" />
+      <TextField fx:id="EDT" layoutX="167.0" layoutY="395.0" text="YYYY-MM-DD HH:MI:SS" />
+      <TextField fx:id="CID" layoutX="167.0" layoutY="439.0" />
+      <TextField fx:id="UID" layoutX="167.0" layoutY="479.0" />
+      <Label layoutX="22.0" layoutY="128.0" text="Appointment_ID" />
+      <Label layoutX="22.0" layoutY="165.0" text="Title" />
+      <Label layoutX="22.0" layoutY="201.0" text="Description" />
+      <Label layoutX="22.0" layoutY="238.0" text="Location" />
+      <Label layoutX="22.0" layoutY="277.0" text="Contact" />
+      <Label layoutX="22.0" layoutY="316.0" text="type" />
+      <Label layoutX="22.0" layoutY="358.0" text="Start date &amp; time" />
+      <Label layoutX="22.0" layoutY="399.0" text="End date &amp; time" />
+      <Label layoutX="22.0" layoutY="443.0" text="Customer_ID" />
+      <Label layoutX="22.0" layoutY="483.0" text="User_ID" />
+      <Button fx:id="Save" layoutX="167.0" layoutY="555.0" mnemonicParsing="false" onAction="#SaveData" text="Save" />
+      <ComboBox fx:id="Contact" layoutX="166.0" layoutY="273.0" prefWidth="150.0" />
+   </children>
+</Pane>

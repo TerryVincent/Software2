@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="CustomerName" layoutX="188.0" layoutY="113.0" />
+      <TextField fx:id="Address" layoutX="188.0" layoutY="163.0" />
+      <TextField fx:id="PostalCode" layoutX="188.0" layoutY="221.0" />
+      <TextField fx:id="PhoneNumber" layoutX="188.0" layoutY="275.0" />
+      <ComboBox fx:id="CountryData" layoutX="187.0" layoutY="357.0" onAction="#country" prefWidth="150.0" promptText="Country" />
+      <ComboBox fx:id="Division" layoutX="380.0" layoutY="357.0" onAction="#div" prefWidth="150.0" promptText="Divisions" />
+      <Label layoutX="79.0" layoutY="117.0" text="Customer Name" />
+      <Label layoutX="79.0" layoutY="167.0" text="Address" />
+      <Label layoutX="79.0" layoutY="225.0" text="Postal Code" />
+      <Label layoutX="79.0" layoutY="279.0" text="Phone Number" />
+      <Label layoutX="79.0" layoutY="361.0" text="Label" />
+      <Button fx:id="Save" layoutX="210.0" layoutY="470.0" mnemonicParsing="false" onAction="#SaveData" text="Save" />
+   </children>
+</Pane>
